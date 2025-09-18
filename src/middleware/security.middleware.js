@@ -41,7 +41,7 @@ export const securityMiddleware = async (req, res, next) => {
     }
 
     if (decision.isDenied() && decision.reason.isRateLimit ()) {
-      logger.warn('Rate limit reached', { ip: req.ip, path: req.path, userAgent: req.get('User-Agent'), method: req.method });
+      logger.warn(message, { ip: req.ip, path: req.path, userAgent: req.get('User-Agent'), method: req.method });
 
       return res.status(403).json({ error: 'Forbidden', message: 'Too many requests' });
     }
