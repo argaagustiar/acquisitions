@@ -15,3 +15,8 @@
 {"level":"info","message":"User created: lagjoke@gmail.com","service":"acquisition-api"}
 {"level":"info","message":"User registered successfully: lagjoke@gmail.com","service":"acquisition-api"}
 {"level":"info","message":"::1 - - [18/Sep/2025:02:57:04 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 105 \"-\" \"PostmanRuntime/7.45.0\"","service":"acquisition-api"}
+{"level":"info","message":"User authenticated: lagjoke@gmail.com","service":"acquisition-api"}
+{"level":"info","message":"User signed in successfully: lagjoke@gmail.com","service":"acquisition-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:03:30:34 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 117 \"-\" \"PostmanRuntime/7.45.0\"","service":"acquisition-api"}
+{"level":"info","message":"User signed out successfully","service":"acquisition-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:03:30:53 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.45.0\"","service":"acquisition-api"}
